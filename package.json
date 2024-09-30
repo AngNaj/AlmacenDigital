@@ -1,0 +1,29 @@
+{
+  "name": "almacendigital",
+  "version": "1.0.0",
+  "description": "Almacen Digital",
+  "main": "src/index.js",
+  "scripts": {
+     "dev": "nodemon --exec electron . --ext js,html,css tailwindcss -i ./src/styles.css -o ./src/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngNaj/AlmacenDigital.git"
+  },
+  "keywords": [
+    "Electron JS",
+    "Node JS"
+  ],
+  "author": "Angel Eduardo Najera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngNaj/AlmacenDigital/issues"
+  },
+  "homepage": "https://github.com/AngNaj/AlmacenDigital#readme",
+  "dependencies": {
+    "electron": "32.1.2",
+    "nodemon": "3.1.7",
+    "tailwindcss": "3.4.13"
+  }
+}

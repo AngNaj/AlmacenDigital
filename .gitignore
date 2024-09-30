@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Build files
+build/
+dist/
+out/
+release/
+temp/
+
+# Compiled JavaScript files
+*.tsbuildinfo
+*.tscache
+*.tsoutput
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Electron-related
+/.vscode/
+/.idea/
+/.cache/
+/tmp/
+/out/
+/electron/dist/
+/installer/
+electron-builder.json
+build/installer/
+installer/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# npm package files
+package-lock.json
+yarn.lock
+
+# VSCode workspace settings
+.vscode/
+*.code-workspace
+
+# Sentry sourcemaps
+*.js.map.zip
